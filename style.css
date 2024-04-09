@@ -1,0 +1,54 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+background: #7D48A7;
+background: linear-gradient(135deg, #7D48A7, #AFC2CC);
+font-family: "Dosis", sans-serif;
+}
+header{
+    padding: 60px;
+}
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.25rem;
+  }
+  
+  
+  .card {
+    margin: 0 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 33px;
+    padding-top: 10px;
+  }
+  .mb-9{
+    margin-bottom: 50px;
+}
